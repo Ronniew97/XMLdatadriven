@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="${encoding}"?> 
+<suite name = "RegressionTest">
+	<test name = "CustomerTest">
+		<parameter name = "username" value = "demo@techfios.com"></parameter>
+		<parameter name = "password" value = "abc123"></parameter>
+		<parameter name = "fullname" value = "Ronnie Wainaina"></parameter>
+		<parameter name = "company" value = "Techfios"></parameter>
+		<parameter name = "email" value = "rw"></parameter>
+		<parameter name = "number" value = "200981978"></parameter>
+		<parameter name = "address" value = "9323 Stayinya Lane"></parameter>
+		<parameter name = "city" value = "Norfolk"></parameter>
+		<parameter name = "state" value = "Virginia"></parameter>
+		<parameter name = "country" value = "United States"></parameter>
+		<parameter name = "group" value = "April2020"></parameter>
+		<parameter name = "pass" value = "password"></parameter>
+		<parameter name = "cpass" value = "password"></parameter>
+		<classes>
+			<class name = "test.CustomerTest" ></class>
+		</classes>
+		
+	</test> 
+</suite>
